@@ -1,0 +1,40 @@
+# Hotele Reservation System
+
+## Description
+Le système de réservation d'hôtel développé en C# utilise WPF et Windows Forms pour la version desktop (Backoffice) et ASP.NET pour la version web (Frontoffice).
+
+## Fonctionnalités
+- **Desktop Backoffice**: 
+  - Gestion des réservations.
+  - Gestion des clients.
+  - Gestion des chambres.
+
+- **Web Frontoffice**:
+  - Réservation en ligne.
+  - Consultation des disponibilités.
+  - Paiement en ligne.
+
+## Prérequis
+- .NET Framework 4.8 ou supérieur.
+- Visual Studio 2019 ou supérieur.
+- SQL Server pour la base de données.
+
+## Installation
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/Sohaib-Laarichi/Hotele_Reservation_dotnet-asp.net.git
+   ```
+2. Ouvrez le projet avec Visual Studio.
+3. Configurez la chaîne de connexion à votre base de données dans `appsettings.json`.
+4. Exécutez les migrations pour créer la base de données :
+   ```bash
+   dotnet ef database update
+   ```
+
+## Utilisation
+- Pour la version desktop, lancez l'application `Backoffice.exe`.
+- Pour la version web, exécutez le projet ASP.NET avec Visual Studio.
+
+## Contribuer
+Les contributions sont les bienvenues ! Veuillez ouvrir une issue pour discuter de ce que vous souhaitez changer.
+
